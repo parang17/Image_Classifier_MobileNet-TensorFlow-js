@@ -1,0 +1,42 @@
+<html lang="en">
+
+
+  <head>
+    <meta charset='UTF-8'/>
+    <title>JUN's First Image Classification</title>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+    <link href='styles.css' rel='stylesheet'/>
+  </head>
+  <body>
+
+    <div class='header'>
+      <title>JUN's First Image Classification</title>
+    </div>
+
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+    <!--<img id="img" crossOrigin src="https://i.imgur.com/JlUvsxa.jpg" width=224 height=224/>-->
+    <!-- Load index.js after the content of the page -->
+
+    <div class="video_box">
+      <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+      <script src="index.js"></script>
+
+    </div>
+
+
+    <div class='container'>
+      <!--<div class='buttons relative'>-->
+        <a class='button' id="class-a">Add A</a>
+        <a class='button' id="class-b">Add B</a>
+        <a class='button' id="class-c">Add C</a>
+      <!--</div>-->
+    </div>
+
+
+
+  </body>
+</html>
