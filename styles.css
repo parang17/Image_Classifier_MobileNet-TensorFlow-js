@@ -14,8 +14,16 @@
   background: #D6E9FE;
 }
 
+body {
+  height: 1200px;
+  display: -webkit-flex;
+  display: flex;
+}
+
 .title {
   margin-top: 25px;
+  font-family: fantasy,sans-serif;
+  font-size: 15px;
 }
 
 .print {
@@ -23,6 +31,9 @@
   justify-content: center;
   width: 700px;
   margin: auto;
+  text-align: center;
+  font-size: 20px;
+  background: #e6e6ff;
 }
 
 
@@ -35,10 +46,6 @@
 
 
 .video_box{
-  /*width:1000px;*/
-
-  /*background-color: #666;*/
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +75,15 @@ a:hover {
   background: #34495E;
   text-decoration: underline;
 }
-
-/*.item img {*/
-  /*display: block;*/
-/*}*/
+.item{
+  text-align: center;
+  font-size: 15px;
+}
+.example {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
